@@ -1,49 +1,57 @@
 # Jcarl Juson — Portfolio
 
-Clean, responsive portfolio highlighting AI, Robotics, and Neurotechnology work: EMG prosthetic arm, EEG BCI, and NASA Space Apps ExoFinder (Global Nominee).
+This is my personal portfolio. I’m a college student focusing on machine learning, robotics, and a bit of neurotech. I’m using this site to share projects like an EMG prosthetic arm, EEG BCI experiments, and my NASA Space Apps ExoFinder submission (Global Nominee).
 
-## About
-- Machine Learning & Data Science enthusiast/innovator
-- Focus: human–machine interaction across AI, robotics, and neuroscience
-- Recognized: NASA International Space Apps Global Nominee (ExoFinder)
+## What’s Inside
+- Hero and profile with quick links
+- Project highlights: EMG prosthetic, BCI, and Space Apps
+- Space Science badge: "NASA – GLOBAL NOMINEE" with the NASA logo
+- Collaboration & Future Focus: ways to connect and work together
+- Contact: email and socials
 
-## Live Preview (Local)
-Run a simple HTTP server from the project root:
+## Tech Stack
+- Plain `HTML`, `CSS`, and a little `JavaScript`
+- No frameworks; simple and fast
+
+## Run Locally
+Option 1: open `index.html` directly in your browser.
+
+Option 2: use a lightweight server:
 
 ```bash
 python -m http.server 5500
 # then open http://localhost:5500/
 ```
 
-## Project Structure
+## Structure
 - `index.html` — main page
-- `styles.css` — layout and typography
-- `script.js` — interactions (mobile nav, smooth scroll, About "See more")
-- `profile.png`, `prosthetic.png`, `Award.png` — hero and project images
-- `assets/` — `placeholder.svg` fallback and notes
+- `styles.css` — styles, layout, and small animations
+- `script.js` — interactions (mobile nav, smooth scroll, “See more” toggle)
+- Images: `profile.png`, `prosthetic.png`, `Award.png`, `building.png`, `certificate.jpg`, `school.webp`
+- `assets/placeholder.svg` — fallback icon
 
 ## Videos
 - Drone showcase: https://youtu.be/xPCSgIPdvKE
 - Nov 11, 2025 short: https://youtu.be/oZ-7cu8UVp8
 - ExoFinder (NASA Space Apps): https://youtu.be/YCnoxsLb9yI
 
-## Social Links
+## Socials
 - Facebook: https://www.facebook.com/jcarlciocsonjuson
 - LinkedIn: https://www.linkedin.com/in/jcarl-juson-565796360/
+- ResearchGate: https://www.researchgate.net/profile/Jcarl-Juson
+
+## Notes
+- Designed to be simple and readable first, fancy second.
+- Built for quick updates as I add more projects and results.
 
 ## Deploy
-This is a static site; no build step required.
+It’s a static site, so hosting is easy.
 
-### GitHub
-1) Initialize and commit locally (already done).
-2) Push to GitHub:
+### GitHub Pages or Vercel
+- Push to GitHub (`main` branch) and deploy with GitHub Pages or Vercel.
+- Vercel settings: Framework = Other, Build Command = none, Output = root.
 
-```bash
-git remote add origin https://github.com/jcarljuson/PortfolioSite.git
-git push -u origin main
-```
-
-### Vercel
-1) Import the GitHub repo in Vercel.
-2) Framework preset: "Other"; Build Command: none; Output Directory: root.
-3) Deploy and assign a domain.
+## Contact
+If you want to collaborate or have feedback:
+- Email: `jusonjcarl@gmail.com`
+- Research collaborations welcome (EEG/EMG/ML/robots)
