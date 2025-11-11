@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1f2937"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="url(#g)"/>
+  <rect x="40" y="40" width="720" height="520" rx="18" fill="#0b1022" stroke="#2b364a" stroke-width="2"/>
+  <g fill="#3b82f6" opacity="0.7">
+    <circle cx="400" cy="260" r="90"/>
+    <rect x="330" y="370" width="140" height="18" rx="9"/>
+  </g>
+  <text x="400" y="520" font-family="Inter, Arial, sans-serif" font-size="22" fill="#9ca3af" text-anchor="middle">
+    Image placeholder — add your file in /assets
+  </text>
+</svg>
